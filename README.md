@@ -1,6 +1,7 @@
 ArmetizRedirectBundle
 =====================
 
+<<<<<<< HEAD
 You have many domains :
 * www.john-doe.fr
 * www.johndoe.fr
@@ -72,3 +73,6 @@ armetiz_redirect:
                 - www.foobar.fr
                 - foobar.fr
 ```
+=======
+A short bundle to manage many domains
+>>>>>>> 7689d420f3fb23092676a0413ca60a73b8b03251
