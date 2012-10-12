@@ -1,14 +1,13 @@
 ArmetizRedirectBundle
 =====================
 
-<<<<<<< HEAD
 You have many domains :
-* www.john-doe.fr
-* www.johndoe.fr
-* john-doe.fr
-* johndoe.fr
+* http://www.john-doe.fr
+* http://www.johndoe.fr
+* http://john-doe.fr
+* http://johndoe.fr
 
-Users have to be redirect to **john-doe.fr/example** from **www.john-doe.fr/example**
+Users have to be redirect to **http://john-doe.fr/example** from **http://www.john-doe.fr/example**
 
 ## Installation
 
@@ -75,4 +74,3 @@ armetiz_redirect:
 ```
 =======
 A short bundle to manage many domains
->>>>>>> 7689d420f3fb23092676a0413ca60a73b8b03251
