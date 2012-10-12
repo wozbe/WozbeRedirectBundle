@@ -1,0 +1,27 @@
+{
+    "name": "armetiz/redirect-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Bundle to manage domains",
+    "keywords": ["Domain", "tld", "Redirect"],
+    "homepage": "http://www.armetiz.info",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Thomas Tourlourat",
+            "email": "thomas@tourlourat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.0.17"
+    },
+    "autoload": {
+        "psr-0": { "Armetiz\\RedirectBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "target-dir": "Armetiz/RedirectBundle"
+}
