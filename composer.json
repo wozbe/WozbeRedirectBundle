@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony Bundle to manage domains",
     "keywords": ["Domain", "tld", "Redirect"],
-    "homepage": "http://www.wozbe.info",
+    "homepage": "http://www.wozbe.com",
     "license": "BSD",
     "authors": [
         {
