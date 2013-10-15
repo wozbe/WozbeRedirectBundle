@@ -1,4 +1,4 @@
-ArmetizRedirectBundle
+WozbeRedirectBundle
 =====================
 
 You have many domains :
@@ -13,18 +13,18 @@ Users have to be redirect to **http://john-doe.fr/example** from **http://www.jo
 
 Installation is a quick 3 step process:
 
-1. Download ArmetizRedirectBundle using composer
+1. Download WozbeRedirectBundle using composer
 2. Enable the Bundle
 3. Configure your application's config.yml
 
-### Step 1: Download ArmetizRedirectBundle using composer
+### Step 1: Download WozbeRedirectBundle using composer
 
-Add ArmetizRedirectBundle in your composer.json:
+Add WozbeRedirectBundle in your composer.json:
 
 ```js
 {
     "require": {
-        "armetiz/redirect-bundle": "*"
+        "wozbe/redirect-bundle": "*"
     }
 }
 ```
@@ -32,10 +32,10 @@ Add ArmetizRedirectBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update armetiz/redirect-bundle
+$ php composer.phar update wozbe/redirect-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/armetiz` directory.
+Composer will install the bundle to your project's `vendor/wozbe` directory.
 
 ### Step 2: Enable the bundle
 
@@ -49,7 +49,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Armetiz\RedirectBundle\ArmetizRedirectBundle(),
+        new Wozbe\RedirectBundle\WozbeRedirectBundle(),
     );
 }
 ```
@@ -59,7 +59,7 @@ Finally, add the following to your config.yml
 
 ``` yaml
 # app/config/config.yml
-armetiz_redirect:
+wozbe_redirect:
     domains:
         john-doe.fr:
             aliases:

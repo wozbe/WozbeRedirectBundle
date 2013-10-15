@@ -1,9 +1,9 @@
 {
-    "name": "armetiz/redirect-bundle",
+    "name": "wozbe/redirect-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Bundle to manage domains",
     "keywords": ["Domain", "tld", "Redirect"],
-    "homepage": "http://www.armetiz.info",
+    "homepage": "http://www.wozbe.info",
     "license": "BSD",
     "authors": [
         {
@@ -13,15 +13,15 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/symfony": ">=2.0.17"
+        "symfony/symfony": ">=2.0.17,<3"
     },
     "autoload": {
-        "psr-0": { "Armetiz\\RedirectBundle": "" }
+        "psr-0": { "Wozbe\\RedirectBundle": "" }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
         }
     },
-    "target-dir": "Armetiz/RedirectBundle"
+    "target-dir": "Wozbe/RedirectBundle"
 }

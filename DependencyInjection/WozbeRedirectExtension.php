@@ -1,6 +1,6 @@
 <?php
 
-namespace Armetiz\RedirectBundle\DependencyInjection;
+namespace Wozbe\RedirectBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class ArmetizRedirectExtension extends Extension
+class WozbeRedirectExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -34,7 +34,7 @@ class ArmetizRedirectExtension extends Extension
             }
         }
         
-        $requestListenerDef = $container->getDefinition("armetiz.redirect.listener.request");
+        $requestListenerDef = $container->getDefinition("wozbe.redirect.listener.request");
         $requestListenerDef->addMethodCall("setAliases", array($aliases));
     }
 }

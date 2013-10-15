@@ -1,6 +1,6 @@
 <?php
 
-namespace Armetiz\RedirectBundle;
+namespace Wozbe\RedirectBundle;
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
