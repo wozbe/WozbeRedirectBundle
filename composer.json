@@ -2,7 +2,7 @@
     "name": "wozbe/redirect-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Bundle to manage domains",
-    "keywords": ["Domain", "tld", "Redirect"],
+    "keywords": ["domain", "tld", "redirect", "forward"],
     "homepage": "http://www.wozbe.com",
     "license": "BSD",
     "authors": [
